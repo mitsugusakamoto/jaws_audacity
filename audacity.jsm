@@ -37,9 +37,9 @@ Const
 
 ;For user options.  The text after the : should be translated, the text before must not be translated.
 Const
-	UO_ANNOUNCE_MESSAGES = "UOAnnounceMessages:Announce Audacity messages",
-	UO_ANNOUNCE_TOOLBARS = "UOAnnounceToolbars:Announce toolbars",
-	UO_ENTER_PAUSE = "UOEnterPause:ENTER pauses during play/record"
+	UO_ANNOUNCE_MESSAGES = "UOAnnounceMessages:Audacityのメッセージを通知",
+	UO_ANNOUNCE_TOOLBARS = "UOAnnounceToolbars:ツールバーの内容を表示",
+	UO_ENTER_PAUSE = "UOEnterPause:再生または録音中にはエンターで一時停止"
 
 ;These are used to strip leading zeros from audio positions.
 Const
@@ -76,35 +76,36 @@ JAWS keystrokes for script version %1, for Audacity 2.0.0 or later:
 @@
 @msgScriptKeyHelp
 
-To say the selection start position, press %keyfor (SaySelectionStart).
-To say the selection end position or length, press %keyfor(SaySelectionEnd).
-To move focus to these controls, press the key twice quickly.
-To say the Audio Position value, press %keyfor(SayActiveCursor).
-To say the active cursor while the PC cursor is active, press %keyfor(SayActiveCursor) twice quickly.
-To increase gain of focus track, press %keyfor (MouseUp).
-To reduce gain of focus track, press %keyfor (MouseDown).
-To adjust pan left, press %keyfor (MouseLeft).
-To adjust pan right, press %keyfor (MouseRight).
-The last 4 keys replace the default JAWS mouse movement scripts while focus is in the main window.  If you want to activate the original functionality while in the main window, turn on the JAWS cursor.
-To toggle speech on or off, press %keyfor(MuteSynthesizer).
-To toggle alert messages on or off, press %keyfor (AnnounceOnOff)).  This duplicates the Announce Audacity messages option in Adjust JAWS options.
-See the what's new.txt for more info.
-In a toolbar to move to the next toolbar press %KeyFor (NextDocumentWindow)
-In a toolbar to move to the previous toolbar press %KeyFor (PreviousDocumentWindow)
-To speak the program's state (play/pause/record/stop) press %KeyFor(SayAudacityState)
-To reset all script options to default values, press %keyfor (ResetConfig)
+選択範囲の最初の位置を読み上げるには%keyfor (SaySelectionStart)です。
+選択範囲の最後の位置を読み上げるには%keyfor(SaySelectionEnd) です。
+これらのコントロールへフォーカスを移動するには上記のキーボードコマンドを素早く2回押します。
+オーディオ再生の位置を読み上げるには%keyfor(SayActiveCursor) を利用します。
+PCカーソルの時にアクティブカーソルの位置を読み上げるには%keyfor(SayActiveCursor) を素早く2回押します。
+トラックのゲインをあげるには%keyfor (MouseUp)です。
+トラックのゲインを下げるには%keyfor (MouseDown)です。
+トラックのパンを左に移動させるには%keyfor (MouseLeft)です。
+トラックのパンを右に移動させるには%keyfor (MouseRight)です。
+これらの4つのコマンドはAudacityのメインウインドーにいるときにはJAWSのデフォルトマウス移動コマンドを変更しています。
+メインウインドーにいるときにオリジナルのコマンドを使用したいときはJAWSカーソルにしてください。
+音声のOn/Offを切り替えるには%keyfor(MuteSynthesizer)を利用します。
+AudacityのメッセージのOn/Offは%keyfor (AnnounceOnOff))を利用します。  
+これはクイック設定の中の「Audacityのメッセージを通知」と同じです。
+詳しくはWhatsNew.txtをご覧ください。
+ツールバーで次のツールバーに移動するには%KeyFor (NextDocumentWindow)を押します。
+ツールバーで前のツールバーへ移動するには%KeyFor (PreviousDocumentWindow)を押します。
+現在の状態(再生/一時停止/録音/停止]を読み上げるには%KeyFor(SayAudacityState)を利用します。
+スクリプトのオプションを初期設定に戻すには%keyfor (ResetConfig)を利用します。
 To switch between the two lists in the Edit Chains dialog, press %keyfor (SwitchChainsList).
-To get help with Audacity hot keys, press %keyfor(AudacityKeysHelp).
-To get the default Windows hot key help, press %keyfor(AudacityKeysHelp) twice quickly.
-
-If the "ENTER pauses during play/record" option is on, pressing %KeyFor(ENTER) while playing or recording sends the Pause key.  Use %KeyFor(CtrlEnter) to execute ENTER in this situation.
-
+Audacityのホットキーのヘルプを表示するには%keyfor(AudacityKeysHelp)を利用します。
+標準のWindowsのホットキーのヘルプを表示するには%keyfor(AudacityKeysHelp)を素早く2回押します。 
+「再生または録音中にはエンターで一時停止」がOnの場合は%KeyFor(ENTER)で1時停止します。 
+この時にデフォルトのエンターキーと同じ動作を行いたい場合は%KeyFor(CtrlEnter)を押します。 
 In some common VST plugins, such as L1V:
 To set focus to the preset control, press %keyfor (VSTPreset).
 To load an existing preset, press  %keyfor (VSTLoadPreset).
 To save the current settings as a preset, press  %keyfor (VSTSavePreset).
 
-To change settings for the Audacity script press %KeyFor (AdjustJawsOptions).
+Audacityスクリプトのオプションを調整するには%KeyFor (AdjustJawsOptions)を利用します
 
 @@
 @msgPresetHotkeyHelp
@@ -375,7 +376,7 @@ Script options reset to default values
 
 ; For user options.
 @msgUO_AudacityOptionsHlp
-Audacity-specific options
+Audacity関連オプション
 @@
 @msgUO_AnnounceMessagesHlp
 If on, speaks messages for Audacity audio operations.
