@@ -23,7 +23,7 @@ shift+rightarrow=FinishMarkerRight
 shift+control+a=DeselectAll
 shift+c=CloseFocusTrack
 ;control+[=
-Control+`=AnnounceOnOff
+Control+@=AnnounceOnOff
 JAWSKey+V=AdjustJAWSOptions
 Insert+V=AdjustJAWSOptions
 ENTER=Enter
@@ -31,7 +31,7 @@ NumPadEnter=Enter
 Control+ENTER=CtrlEnter
 ; Assigning CtrlEnter to NumPadEnter makes %KeyFor return Control+NumPadEnter instead of Control+ENTER.
 ;Control+NumPadEnter=CtrlEnter
-Shift+Control+`=ResetConfig
+Shift+Control+@=ResetConfig
 Alt+P=VSTPreset
 Alt+L=VSTLoadPreset
 Alt+S=VSTSavePreset
