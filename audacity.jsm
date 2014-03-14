@@ -1,4 +1,5 @@
-; English messages for Audacity 2.0.0 script by Gary Campbell last updated 9/14/2013.
+; Japanese messages for Audacity 2.0.0 script by KIRIAKE Masanori updated $Date$.
+; Original English messages for Audacity 2.0.0 script by Gary Campbell last updated 9/14/2013.
 /*
 JAWS script for Audacity multitrack sound editor V2.0 or later (http://audacity.sourceforge.net).
 
@@ -27,13 +28,13 @@ Const
 	WN_TRACKPANEL = "トラックパネル", ; window name of track table
 	WN_SELECTION = "選択", ;window name of selection bar
 	WN_TRANSPORT_TOOLBAR = "トランスポート", ; window name of Transport toolbar
-	WN_EDIT_CHAINS = "Edit Chains" ; name of the Edit Chains dialog
+	WN_EDIT_CHAINS = "チェインを編集" ; name of the Edit Chains dialog
 
 Const
 	; These are used to announce different areas of the main window.  They should be translated.
-	CS_Toolbars="Toolbars",
-	CS_SelectionBar="Selection bar",
-	CS_TrackPanel="Track panel"
+	CS_Toolbars="ツールバー",
+	CS_SelectionBar="選択バー",
+	CS_TrackPanel="トラックパネル"
 
 ;For user options.  The text after the : should be translated, the text before must not be translated.
 Const
@@ -75,7 +76,6 @@ JAWS keystrokes for script version %1, for Audacity 2.0.0 or later:
 
 @@
 @msgScriptKeyHelp
-
 選択範囲の最初の位置を読み上げるには%keyfor (SaySelectionStart)です。
 選択範囲の最後の位置を読み上げるには%keyfor(SaySelectionEnd) です。
 これらのコントロールへフォーカスを移動するには上記のキーボードコマンドを素早く2回押します。
@@ -244,19 +244,19 @@ end
 @@
 
 @msgLeft
-left
+ひだり
 @@
 
 @msgRight
-right
+みぎ
 @@
 
 @msgSelectionStart
-Selection Start
+選択開始
 @@
 
 @msgSelectionEnd
-Selection end
+選択終了
 @@
 
 ; %1 = "start" or "end" of selection, %2 = direction ("left" or "right").
@@ -268,27 +268,27 @@ Move Selection %1 to %2
 @@
 
 @MsgNoProject_l
-There is no project open.
+プロジェクトが開かれていません。
 @@
 
 @msgNoProject_s
-No project
+プロジェクトなし
 @@
 
 @msgSelection
-selection
+選択
 @@
 
 @msgTrack
-track
+トラック
 @@
 
 @msgAllAudio
-all audio
+すべてのオーディオ
 @@
 
 @msgSelectedTracks
-selected tracks
+選択中トラック
 @@
 
 ; %1 is where we move, like start or end, %2 is of what, e.g. track or selection.
@@ -302,45 +302,45 @@ Selected to %1
 @@
 
 @MsgStartOfFile
-Select from start of file.
+ファイルの先頭から選択
 @@
 
 @MSgEndOfFile
-Select to end of file.
+ファイルの最後まで選択
 @@
 
 @MSGDelete_l
-Delete selected audio
+選択中の音声を削除
 @@
 
 @MSGDelete_s
-Delete
+削除
 @@
 
 ;Messages for program states.
 @msgPause
-pause
+ポーズ
 @@
 @msgPlay
-play
+再生
 @@
 @msgStop
-stop
+停止
 @@
 @msgRecord
-record
+録音
 @@
 
 @msgDeselectAll
-deselect all
+すべて選択解除
 @@
 
 @MSGSelectAll
-All tracks selected
+すべてのトラックを選択
 @@
 
 @msgCloseFocusedTrack
-close focused track
+フォーカスのあるトラックを閉じます
 @@
 
 @msgNotStopped_l
@@ -355,23 +355,23 @@ Cannot find transport toolbar.  The transport toolbar must be enabled for this s
 @@
 
 @msgCopyAudio
-Copy selected audio to clipboard
+選択範囲の音声をクリップボードにコピーしました
 @@
 
 @msgCutAudio
-cut selected audio to clipboard
+選択範囲の音声をクリップボードに切り取りました。
 @@
 
 @msgAnnounceOff
-Announce messages off
+メッセー助オフ
 @@
 
 @msgAnnounceOn
-Announce messages on
+メッセージオン
 @@
 
 @msgResetScriptOptions
-Script options reset to default values
+スクリプトオプションを初期値にリセットしました。
 @@
 
 ; For user options.
@@ -412,9 +412,9 @@ Don't warn again and always use my choice above
 
 ;Messages for the two lists in the Edit Chains dialog.
 @msgChains
-Chains
+チェーン
 @@
 @msgChainCommands
-Chain commands
+チェーンコマンド
 @@
 EndMessages
