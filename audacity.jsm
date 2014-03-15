@@ -161,15 +161,16 @@ Default keystrokes for Audacity v2.0.4 (from %1, by %2).  Access the guide at
 切り取りまたは削除範囲を再生するにはCを押します。
 繰り返し再生をするにはShift+スペースバーを押します。
 出力デバイスの選択ダイアログボックスを表示するにはShift+Oを押します。
-Track table
-Command Keystroke 
-Move to previous track Up Arrow 
-Move to next track Down Arrow 
-Toggle selection of focused track Enter 
-Select all the tracks (and all the audio) Ctrl + A 
-Deselect all the tracks (and any time-range) Ctrl + Shift + A 
-Open menu of focused track Application Key or Shift + M 
-Close (Delete) focused track Shift + C 
+
+トラックテーブル
+コマンドとキーの割り当て 
+前のトラックに移動するには上矢印キーを押します。
+次のトラックに移動するには下矢印キーを押します。
+トラックの選択を切り替えるにはエンターキーを押します。
+すべてのトラック(オーディオデータを含む)を選択するにはCtrl+Aを押します。
+すべてのトラックの選択を解除(and any time-range)するにはCTRL+Shift+Aを押します。
+選択されたトラックのメニューを表示するにはアプリケーションキーまたはShift+Mを押します。
+選択されたトラックを閉じて削除するにはShift+Cを押します。
 
 Audio track
 Command Keystroke 
