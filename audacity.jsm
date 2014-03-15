@@ -156,30 +156,30 @@ Default keystrokes for Audacity v2.0.4 (from %1, by %2).  Access the guide at
 一時停止/再開をするにはPを押します。
 再生中に少し戻すには左矢印キーを押します。
 再生中に少し進めるには右矢印キーを押します。
-再生中に長めに戻すにはShift+左矢印キーを押します。
+再生中に長めに戻すにはShift + 左矢印キーを押します。
 再生中に長めに進めるにはShift+右矢印キーを押します。
 切り取りまたは削除範囲を再生するにはCを押します。
-繰り返し再生をするにはShift+スペースバーを押します。
-出力デバイスの選択ダイアログボックスを表示するにはShift+Oを押します。
+繰り返し再生をするにはShift + スペースバーを押します。
+出力デバイスの選択ダイアログボックスを表示するにはShift + Oを押します。
 
 トラックテーブル
 コマンドとキーの割り当て 
 前のトラックに移動するには上矢印キーを押します。
 次のトラックに移動するには下矢印キーを押します。
 トラックの選択を切り替えるにはエンターキーを押します。
-すべてのトラック(オーディオデータを含む)を選択するにはCtrl+Aを押します。
-すべてのトラックの選択を解除(and any time-range)するにはCTRL+Shift+Aを押します。
-選択されたトラックのメニューを表示するにはアプリケーションキーまたはShift+Mを押します。
-選択されたトラックを閉じて削除するにはShift+Cを押します。
+すべてのトラック(オーディオデータを含む)を選択するにはCtrl + Aを押します。
+すべてのトラックの選択を解除(and any time-range)するにはCtrl+ Shift+ Aを押します。
+選択されたトラックのメニューを表示するにはアプリケーションキーまたはShift + Mを押します。
+選択されたトラックを閉じて削除するにはShift + Cを押します。
 
-Audio track
-Command Keystroke 
-Change gain of focused track Shift + G 
-Change pan of focused track Shift + P 
-Mute/Unmute focused track Shift + U 
-Mute all tracks Ctrl + U 
-Unmute all tracks Ctrl + Shift + U 
-Solo/Unsolo focused track Shift + S 
+オーディオトラック
+コマンドとキーの割り当て 
+選択されたトラックのゲインを変更するにはShift + Gを押します。
+選択されたトラックのパン(左右への定位)を変更するにはShift + Pを押します。
+選択されたトラックをミュートしたりミュートを解除するにはShift + Uを押します。
+すべてのトラックをミュートするにはCtrl + Uを押します。
+すべてのトラックのミュートを解除するには、Ctrl + Shift + Uを押します。
+選択されたトラックのソロのOn/OffはShift + Sを押します。
 
 Moving the cursor
 Command Keystroke 
