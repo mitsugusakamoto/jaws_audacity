@@ -100,10 +100,11 @@ Audacity‚ÌƒzƒbƒgƒL[‚Ìƒwƒ‹ƒv‚ğ•\¦‚·‚é‚É‚Í%keyfor(AudacityKeysHelp)‚ğ—˜—p‚µ‚Ü‚·
 •W€‚ÌWindows‚ÌƒzƒbƒgƒL[‚Ìƒwƒ‹ƒv‚ğ•\¦‚·‚é‚É‚Í%keyfor(AudacityKeysHelp)‚ğ‘f‘‚­2‰ñ‰Ÿ‚µ‚Ü‚·B 
 uÄ¶‚Ü‚½‚Í˜^‰¹’†‚É‚ÍƒGƒ“ƒ^[‚Åˆê’â~v‚ªOn‚Ìê‡‚Í%KeyFor(ENTER)‚Å1’â~‚µ‚Ü‚·B 
 ‚±‚Ì‚ÉƒfƒtƒHƒ‹ƒg‚ÌƒGƒ“ƒ^[ƒL[‚Æ“¯‚¶“®ì‚ğs‚¢‚½‚¢ê‡‚Í%KeyFor(CtrlEnter)‚ğ‰Ÿ‚µ‚Ü‚·B 
-In some common VST plugins, such as L1V:
-To set focus to the preset control, press %keyfor (VSTPreset).
-To load an existing preset, press  %keyfor (VSTLoadPreset).
-To save the current settings as a preset, press  %keyfor (VSTSavePreset).
+
+VSTƒvƒ‰ƒOƒCƒ“‚Å‚Í:
+ƒvƒŠƒZƒbƒgƒRƒ“ƒgƒ[ƒ‹‚ÉƒtƒH[ƒJƒX‚ğˆÚ“®‚·‚é‚É‚Í%keyfor (VSTPreset)‚ğ‰Ÿ‚µ‚Ü‚·B
+‚·‚Å‚É‚ ‚éƒvƒŠƒZƒbƒg‚ğ“Ç‚İ‚Ş‚É‚Í%keyfor (VSTLoadPreset)‚ğ‰Ÿ‚µ‚Ü‚·B
+Œ»İ‚Ìİ’è‚ğƒvƒŠƒZƒbƒg‚Æ‚µ‚Ä•Û‘¶‚·‚é‚É‚Í%keyfor (VSTSavePreset)‚ğ‰Ÿ‚µ‚Ü‚·B
 
 AudacityƒXƒNƒŠƒvƒg‚ÌƒIƒvƒVƒ‡ƒ“‚ğ’²®‚·‚é‚É‚Í%KeyFor (AdjustJawsOptions)‚ğ—˜—p‚µ‚Ü‚·
 
@@ -120,7 +121,7 @@ To save the current settings as a preset, press  %keyfor (VSTSavePreset).
 JAWS ‚ÅAudacity‚ğg‚¤‚½‚ß‚ÌƒKƒCƒhƒy[ƒW‚Ì“Ç‚İ‚İ
 @@
 @msgLoadingJawsGuide_S
-JAWS Guide
+JAWS ƒKƒCƒh
 @@
 
 ;Text of Audacity hotkey help that appears before the link to the Audacity guide for JAWS.
@@ -140,28 +141,26 @@ Default keystrokes for Audacity v2.0.4 (from %1, by %2).  Access the guide at
 ƒI[ƒfƒBƒIƒtƒ@ƒCƒ‹‚ğŠJ‚­‚É‚ÍCtrl + O‚ğ‰Ÿ‚µ‚Ü‚·B
 ƒI[ƒfƒBƒIƒtƒ@ƒCƒ‹‚©‚çƒCƒ“ƒ|[ƒg‚·‚é‚É‚ÍCtrl + Shift + I‚ğ‰Ÿ‚µ‚Ü‚·B
 V‚µ‚¢ƒvƒƒWƒFƒNƒg‚ğì¬‚·‚é‚É‚ÍCtrl + N‚ğ‰Ÿ‚µ‚Ü‚·B 
-Save project Ctrl + S 
 ƒvƒƒWƒFƒNƒg‚ğ•Û‘¶‚·‚é‚É‚ÍCtrl + S ‚ğ‰Ÿ‚µ‚Ü‚·
-Preferences dialog Ctrl + P 
-Cycle forward through Toolbars, Track table, and Selection bar Ctrl + F6 
-Cycle backward through Toolbars, Track table, and Selection bar Ctrl + Shift + F6 
-Zoom normal Ctrl + 2 
-Zoom in Ctrl + 1 
-Zoom out Ctrl + 3 
+İ’èƒ_ƒCƒAƒƒO‚ğ•\¦‚·‚é‚É‚ÍCtrl + P ‚ğ‰Ÿ‚µ‚Ü‚·B
+ƒc[ƒ‹ƒo[Aƒgƒ‰ƒbƒNƒpƒlƒ‹A‘I‘ğƒo[‚ğ‡•ûŒü‚ÉˆÚ“®‚·‚é‚É‚ÍCtrl + F6 ‚ğ‰Ÿ‚µ‚Ü‚·B
+ƒc[ƒ‹ƒo[Aƒgƒ‰ƒbƒNƒpƒlƒ‹A‘I‘ğƒo[‚ğ‹t•ûŒü‚ÉˆÚ“®‚·‚é‚É‚ÍCtrl + Shift + F6 ‚ğ‰Ÿ‚µ‚Ü‚·B
+”gŒ`‚ğŒ³‚ÌkÚ‚É–ß‚·‚É‚ÍCtrl + 2 ‚ğ‰Ÿ‚µ‚Ü‚·B
+”gŒ`‚ğŠg‘å‚·‚é‚É‚ÍCtrl + 1 ‚ğ‰Ÿ‚µ‚Ü‚·B
+”gŒ`‚ğk¬‚·‚é‚É‚ÍCtrl + 3‚ğ‰Ÿ‚µ‚Ü‚·B
 
-Playback
-Command Keystroke 
-Start/Stop Spacebar 
-Start/Stop and move cursor Shift + A 
-Pause/resume P 
-Seek backward short period during playback Left Arrow 
-Seek forward short period during playback Right Arrow 
-Seek backward long period during playback Shift + Left Arrow 
-Seek forward long period during playback Shift + Right Arrow 
-Play cut/delete preview C 
-Play looped Shift + Spacebar 
-Output Device dialog Shift + O 
-
+Ä¶ŠÖ˜A‚Ì‘Š‚³
+ƒRƒ}ƒ“ƒh‚ÆƒL[‚ÌŠ„‚è“–‚Ä 
+Ä¶/’â~‚ğ‚·‚é‚É‚Í ƒXƒy[ƒXƒo[‚ğ‰Ÿ‚µ‚Ü‚·B
+ƒJ[ƒ\ƒ‹‚ğˆÚ“®‚³‚¹‚È‚ª‚ç‚ÌÄ¶/’â~‚ğ‚·‚é‚É‚Í Shift + A‚ğ‰Ÿ‚µ‚Ü‚·B
+ˆê’â~/ÄŠJ‚ğ‚·‚é‚É‚ÍP‚ğ‰Ÿ‚µ‚Ü‚·B
+Ä¶’†‚É­‚µ–ß‚·‚É‚Í¶–îˆóƒL[‚ğ‰Ÿ‚µ‚Ü‚·B
+Ä¶’†‚É­‚µi‚ß‚é‚É‚Í‰E–îˆóƒL[‚ğ‰Ÿ‚µ‚Ü‚·B
+Ä¶’†‚É’·‚ß‚É–ß‚·‚É‚ÍShift+¶–îˆóƒL[‚ğ‰Ÿ‚µ‚Ü‚·B
+Ä¶’†‚É’·‚ß‚Éi‚ß‚é‚É‚ÍShift+‰E–îˆóƒL[‚ğ‰Ÿ‚µ‚Ü‚·B
+Ø‚èæ‚è‚Ü‚½‚Ííœ”ÍˆÍ‚ğÄ¶‚·‚é‚É‚ÍC‚ğ‰Ÿ‚µ‚Ü‚·B
+ŒJ‚è•Ô‚µÄ¶‚ğ‚·‚é‚É‚ÍShift+ƒXƒy[ƒXƒo[‚ğ‰Ÿ‚µ‚Ü‚·B
+o—ÍƒfƒoƒCƒX‚Ì‘I‘ğƒ_ƒCƒAƒƒOƒ{ƒbƒNƒX‚ğ•\¦‚·‚é‚É‚ÍShift+O‚ğ‰Ÿ‚µ‚Ü‚·B
 Track table
 Command Keystroke 
 Move to previous track Up Arrow 
