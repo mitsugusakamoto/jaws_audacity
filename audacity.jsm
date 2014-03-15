@@ -117,7 +117,7 @@ To save the current settings as a preset, press  %keyfor (VSTSavePreset).
 
 ;Spoken before loading the Audacity for JAWS web page.
 @msgLoadingJawsGuide_L
-loading Audacity JAWS Guide web page
+JAWS でAudacityを使うためのガイドページの読み込み
 @@
 @msgLoadingJawsGuide_S
 JAWS Guide
@@ -135,12 +135,13 @@ Default keystrokes for Audacity v2.0.4 (from %1, by %2).  Access the guide at
 @msgAudacityHotkeyHelp2
 
 
-General
-Command Keystrokes 
-Open audio file Ctrl + O 
-Import audio file Ctrl + Shift + I 
-New project Ctrl + N 
+一般
+コマンドとキーの割り当て 
+オーディオファイルを開くにはCtrl + Oを押します。
+オーディオファイルからインポートするにはCtrl + Shift + Iを押します。
+新しいプロジェクトを作成するにはCtrl + Nを押します。 
 Save project Ctrl + S 
+プロジェクトを保存するにはCtrl + S を押します
 Preferences dialog Ctrl + P 
 Cycle forward through Toolbars, Track table, and Selection bar Ctrl + F6 
 Cycle backward through Toolbars, Track table, and Selection bar Ctrl + Shift + F6 
