@@ -1,4 +1,4 @@
-; JAWS script for Audacity multitrack sound editor V2.0.1.0 (http://audacity.sourceforge.net).
+ni; JAWS script for Audacity multitrack sound editor V2.0.1.0 (http://audacity.sourceforge.net).
 ;Original author: Gary Campbell
 ;Modified: Dang Manh Cuong
 ;Vietnamese README file translation by Nguyen Hoang Giang.
